@@ -1,0 +1,32 @@
+body {
+    max-width: 1440px;
+    display: flex;
+}
+
+.diya {
+    background-color: black;
+    width: 512px;
+    height: 512px;
+    display: inline-block;
+}
+
+.text {
+    display: block;
+    margin: 0 auto;
+    padding: 90px 0 32px 0;
+}
+
+.flag {
+    display: block;
+    margin: 0 auto;
+}
+
+.wave {
+    margin: 10px}
+
+.circle {
+    /* width: 512px; */
+}
+
+
+
