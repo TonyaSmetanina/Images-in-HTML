@@ -1,6 +1,11 @@
 body {
     max-width: 1440px;
+    /* display: flex; */
+}
+
+.container {
     display: flex;
+    vertical-align: top;
 }
 
 .diya {
@@ -21,11 +26,35 @@ body {
     margin: 0 auto;
 }
 
-.wave {
-    margin: 10px}
+.flag-wave {
+    margin: 0px 10px;
+    background: linear-gradient(to top, yellow 50%,blue 50%);
+    width: 512px;
+    height: 512px;
 
-.circle {
-    /* width: 512px; */
+}
+
+.wave {
+    margin: 100px 0;
+    background: linear-gradient(to top, yellow 51%,blue 49%);
+    width: 512px;
+}
+
+.flag-circle {
+    background: linear-gradient(to top, yellow 50%,blue 50%);
+    border-radius: 50%;
+    margin: 0px 10px;
+    width: 512px;
+    height: 512px;
+
+}
+
+.wave-circle {
+
+    width: 90%;
+    display: block;
+    margin: 50% 0% 7% 3%;
+    width: 421px;
 }
 
 
